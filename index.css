@@ -1,0 +1,239 @@
+/* General styles for the body */
+body {
+  display: flex;
+  padding: 30px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  background: #A6AFB8;
+}
+
+/* Styles for the main container section */
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 28%;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: rgba(117, 96, 250, 0.13);
+}
+
+/* Styles for class1 */
+.class1 {
+  width: 72%;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FCF3F3;
+  box-shadow: 10px 10px 79.2px 0px #D8D7FA;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+/* Styles for heading inside class1 */
+.class1 h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+/* Styles for paragraph inside class1 */
+.class1 p {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* Styles for button with id "button1" */
+#button1 {
+  width: 90%;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #9BFF8B 25.25%, rgba(14, 232, 210, 0.09) 102.21%, rgba(0, 231, 217, 0.00) 102.22%);
+  border: 1px solid #ffffff;
+  margin-left: 10px;
+}
+
+/* Styles for additional text with class "text" */
+.text {
+  margin-left: 10px;
+  color: #000;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+/* Styles for span inside "text" */
+.text span {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Styles for class2 */
+.class2 {
+  margin-right: 20px;
+}
+
+/* Styles for image-text divs */
+.img-text{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-right: 30px;
+}
+
+/* Styles for images inside image-text divs */
+.img-text img{
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  margin: 0%;
+}
+
+/* Styles for text inside image-text divs */
+.img-text .text2{
+  margin-left: 10px;
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  }
+
+/* Styles for span inside text2 */
+.text2 span{
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-bottom: 1px solid black;
+  }
+
+/* Styles for image-text divs */
+  .img-text2{
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      margin-right: 65px;
+  }
+  /* Styles for images inside image-text divs */
+  .img-text2 img{
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+      margin: 0%;
+  }
+  
+  /* Styles for text inside image-text divs */
+  .img-text2 .text2{
+      color: #000;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      border-bottom: 1px solid black;
+      }
+
+
+/* Styles for search-text */
+.search-text {
+  width: 90%;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #D0D3D3 0.01%, rgba(168, 240, 233, 0.09) 0.02%, #D9D9D9 95.91%);
+  padding: 8px;
+  margin-top: 10px;
+}
+
+/* Styles for paragraph inside "search-text" */
+.search-text p {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px; /* 100% */
+}
+
+/* Styles for search container */
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-left: 8px;
+}
+
+/* Styles for input with id "zipCodeInput" */
+#zipCodeInput {
+  padding: 15px;
+  font-size: 10px;
+  background-image: url('/img/search\ icon.png'); /* Replace 'search-icon.svg' with the path to your SVG icon */
+  background-size: 15px; /* Adjust the size of the icon */
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Adjust the position of the icon */
+  border-radius: 10px;
+  border: 1px solid #9379F9;
+}
+
+/* Styles for button */
+button {
+  padding: 9px 14px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+/* Styles for button with id "button2" */
+#button2 {
+  width: 90%;
+  margin-top: 7%;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(5, 0, 250, 0.20) 0%, rgba(97, 0, 255, 0.64) 102.55%, #6100FF 102.55%);
+  border: 1px solid #ffffff;
+  margin-left: 10px;
+}
+
+/* Media query for screens with a maximum width of 600px (mobile) */
+@media (max-width: 765px) {
+  /* Set a minimum width for the container on mobile */
+  .container {
+      min-width: 300px; /* Adjust as needed */
+  }
+
+  /* Adjust styles for mobile */
+  .class2 {
+      margin-right: 0px;
+  }
+
+  .search-container {
+      margin-left: 0px;
+  }
+
+  #zipCodeInput {
+      padding: 10px 0px;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="/index.css">
+    <!-- Title of the page -->
+    <title>CHALLANAGE 3</title>
+</head>
+<body>
+
+    <!-- Main container section -->
+    <section class="container">
+        <!-- First div with class1 -->
+        <div class="class1">
+            <!-- Heading -->
+            <h3>549, -</h3>
+            <!-- Paragraph -->
+            <p>Pay now, later or split up</p>
+            <!-- Button 1 with id "button1" -->
+            <button id="button1" onclick="handleBuyOnline()">BUY ONLINE</button>
+            <!-- Additional paragraph with class "text" -->
+            <p class="text"><span>18 in online storage -</span> can be shipped today</p>
+            <!-- Nested div with class2 -->
+            <div class="class2">
+                <!-- First div with image and text -->
+                <div class="img-text">
+                   <img src="/img/Group 4.png" alt="">
+                   <p class="text2"><span>Free shipping</span> over NOK 800</p> 
+                </div>
+                <!-- Second div with image and text -->
+                <div class="img-text2">
+                    <img src="/img/Group 4.png" alt="">
+                    <p class="text2">Lightning fast delivery</p> 
+                </div>
+            </div>
+
+            <!-- Another div with class "search-text" -->
+            <div class="search-text">
+                <!-- Paragraph inside "search-text" div -->
+                <p>see how fast you can get the item</p>
+                <!-- Search container with input and button -->
+                <div class="search-container">
+                    <input type="text" id="zipCodeInput" placeholder="        Zip Code" class="fas">
+                    <button onclick="search()">Search</button>
+                </div>
+            </div>
+            
+            <!-- Button 2 with id "button2" -->
+            <button id="button2" onclick="handlePickUpInStore()">PICK UP IN STORE</button>
+        </div>
+    </section>
+    
+    <!-- Script tag to include JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
